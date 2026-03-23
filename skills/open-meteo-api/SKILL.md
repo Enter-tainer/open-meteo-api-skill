@@ -125,6 +125,8 @@ https://ensemble-api.open-meteo.com/v1/ensemble?latitude=35.68&longitude=139.76&
 | `hourly` | 否 | - | 逐小时污染物或 AQI 变量列表。 |
 | `domains` | 否 | `auto` | 数据域：`auto`, `cams_europe` (欧洲更高精度), `cams_global` (全球)。 |
 | `timezone` | 否 | `GMT` | 设为 `auto` 让系统自动通过经纬度匹配当地时区。 |
+| `forecast_days` | 否 | `5` | 预报天数（0 到 7天）。 |
+| `past_days` | 否 | `0` | 包含过去的天数（0 到 92天）。 |
 
 ### 核心变量
 - **污染物**: `pm10`, `pm2_5`, `carbon_monoxide`, `nitrogen_dioxide`, `sulphur_dioxide`, `ozone`, `aerosol_optical_depth`, `dust`, `uv_index`.
